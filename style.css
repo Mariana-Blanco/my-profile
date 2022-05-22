@@ -1,0 +1,101 @@
+@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+ 
+  .container {
+    width: 300px;
+  }
+}
+
+body { 
+	font-family: Courier, monospace; 
+	background-color: rgb(230, 230, 230); 
+	font-size: 16px ;
+
+}
+
+.white-card { 
+	background: ghostwhite;                         
+	padding: 40px;                             
+	border-radius: 10px;                        
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);   
+	margin: 20px auto; 
+	width: 90%;
+	text-align: center ;
+
+}
+
+.container {
+	background: rebeccapurple;                         
+	padding: 40px;                             
+	border-radius: 10px;                        
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);   
+	margin: 20px auto; 
+	width: 90%;
+	text-align: center ;
+}
+
+
+
+h1 {
+	color : white ;
+	font-size:  34 ;
+	background-color: black;
+	padding: 20px;
+	border-radius: 10px;
+	width: 90%;
+	margin: 40px auto;
+
+
+}
+
+h3, h4 {
+	color: rebeccapurple;
+	font-size: 20;
+	text-align: center;
+}
+
+
+
+a {
+	text-decoration: none;
+	color : black;
+	transition: color 0.3s ease;
+
+}
+
+a:hover {
+	color:green;
+	text-decoration: none;
+}
+
+
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+
+#logo {
+	width: 60% ;
+	border-radius: 50%;
+}
+
+.miniaturas { 
+	width: 80%;
+ }
+
+
+
+
+
